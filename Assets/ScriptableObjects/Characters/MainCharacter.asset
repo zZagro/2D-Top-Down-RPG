@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85500d683ea28845a9880d3ebe49c4f, type: 3}
+  m_Name: MainCharacter
+  m_EditorClassIdentifier: 
+  CharacterName: MC
+  CharacterSprite: {fileID: -2413806693520163455, guid: 4adeaf2d2b1c7417e89f026626d8264f, type: 3}
+  UISprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  IsInParty: 1
+  IsOwned: 1
+  Rarity: 4
+  HasTakenDamage: 0
+  EquipedWeapon: {fileID: 11400000, guid: ac58690e3574a854f9ff87457b86826f, type: 2}
+  UsableWeaponTypes: 000000000100000002000000030000000400000005000000
+  CurrentEquipment: []
+  Level: 1
+  CurrentXp: 0
+  NextLevelXp: 1000
+  BaseHealth: 1000
+  BaseDefense: 100
+  BaseSpeed: 100
+  BaseAttack: 100
+  BaseAttackSpeed: 100
+  BaseCritChance: 100
+  BaseCritDamage: 50
+  Health: 1000
+  Defense: 100
+  Speed: 100
+  Attack: 100
+  AttackSpeed: 100
+  CritChance: 100
+  CritDamage: 50
